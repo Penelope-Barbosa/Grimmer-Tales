@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+@import url('https://fonts.google.com/specimen/Marck+Script?query=marck#standard-styles');
+@import url('https://fonts.google.com/specimen/Poppins?query=popp');
+@import url('https://fonts.googleapis.com/css2?family=Taviraj:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=trocar');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+html,
+body {
+    height: 100vh;
+    margin: 20px;
+    padding: 50px;
+    background-color: #BAAB85;
+    text-align: justify;
+}
+
+.text-top {
+    color: #660000;
+    font-family: 'Cinzel', sans-serif;
+    font-size: 80px;
+    display: block;
+    text-align: center;
+    margin-top: -90px;
+    margin-bottom: 10px;
+}
+
+/* MENU DE PÁGINAS */
+.menu ul {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
+    list-style-type: none;
+    display: block;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    background-color: #BAAB85;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.menu li {
+    list-style: none;
+    display: inline-block;
+    margin-top: -50px;
+    margin-left: 60px;
+    padding-right: 70px;
+}
+.menu li :link {
+    text-decoration: none;
+    color: black;
+}
+.menu li :visited {
+    text-decoration: none;
+    color: #660000;
+}
+.menu li :hover {
+    color: #660000;
+    text-decoration: underline;
+}
+.menu li :active {
+    color: #660000;
+    text-decoration: underline;
+}
+
+#sobre {
+    color: whitesmoke;
+    text-align: center;
+    font-family: "Italianno", sans-serif;
+    font-size: 80px;
+    font-weight: 50;
+    margin-bottom: -100px;
+}
+
+div#container {
+    background-color: rgb(182, 176, 168);
+    border-radius: 20px;
+    max-width: 100%;
+    width: calc(90% - 20px);
+    left: 5%;
+    padding: 10px;
+    padding-top: 1px;
+    margin-bottom: 50px;
+    margin-top: 100px;
+    position: relative;
+}
+
+.amigos {
+    width: 90%;
+    display: flex;
+    left: 50%;
+    transform: translate(-50%, 0px);
+    margin-bottom: 20px;
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.avatar {
+    width: 150px !important;
+    height: 150px !important;
+    background: rgb(56, 56, 56);
+    border-radius: 300px;
+    position: relative;
+    margin-right: 20px;
+    background-size: 100%;
+    border: 3px dotted goldenrod;
+}
+
+.desc_container {
+    width: calc(100% - 300px);
+}
+.desc_container h2 {
+    color: #0000003b;
+    margin-top: -20px;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+
+}
+
+.name {
+    font-size: 50px;
+    font-family: 'Italianno', cursive;
+    color: #4f1b1b;
+    text-shadow: 0px 0px 20px #0000003b;
+}
+
+.description {
+    color: black;
+    margin-top: -20px;
+    margin-bottom: 25px;
+    padding: 30px;
+    font-family: 'Italianno', cursive;
+    font-family: 'Vesper Libre', serif;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    overflow: hidden !important;
+    max-height: 130px;
+    font-size: 20px;
+}
+/*barrinha de rolagem*/
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #BAAB85;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #4f1b1b;
+}

@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+@import url('https://fonts.google.com/specimen/Poppins?query=popp');
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&display=swap');
+
+html {
+    background: url(imgs/fundo-contos.jpeg);
+    max-width: 100%;
+    background-size: cover;
+}
+
+h1 {
+    background-color: #BAAB85;
+    border-radius: 20px;
+    margin-left: 160px;
+    margin-right: 160px;
+    font-family: 'Cinzel', sans-serif;
+    font-size: 90px;
+    text-align: center;
+    margin-top: 90px;
+}
+
+img {
+    border-radius: 90px;
+    float: left;
+    margin-top: -160px;
+    margin-left: 10px;
+}
+
+.container {
+    background-color: #BAAB85;
+    margin-left: 130px;
+    margin-right: 130px;
+    padding: 60px;
+    border-radius: 20px;
+}
+
+p, h3 {
+    font-family: 'Gentium Book Plus', serif;
+    text-align: justify;
+}
+
+/*barrinha de rolagem*/
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #BAAB85;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #4f1b1b;
+}
+

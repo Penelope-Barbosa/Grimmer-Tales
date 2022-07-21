@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+@import url('https://fonts.google.com/specimen/Marck+Script?query=marck#standard-styles');
+@import url('https://fonts.google.com/specimen/Poppins?query=popp');
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #660000;
+    border-radius: 20px;
+    border: 3px solid black;
+}
+
+header {
+    height: 100%;
+}
+
+main,
+header {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+}
+
+.introducao {
+    position: absolute;
+    right: 10%;
+    top: 10%;
+    bottom: 10%;
+    width: 40%;
+    height: 80%;
+    text-align: justify;
+}
+
+.introducao p {
+    color: #D8AE17;
+    font-family: 'Gentium Book Plus', serif;
+    font-size: 1.3vw;
+    text-align: justify;
+}
+
+.introducao h3 {
+    color: #D8AE17;
+    text-align: center;
+    font-family: 'Cinzel', sans-serif;
+    text-shadow: 3px 3px #660000;
+    font-weight: 100;
+    font-size: 3.8vw;
+}
+
+#principal {
+    background-image: url(imgs/fundo.jpg);
+    /*background-repeat: no-repeat;*/
+    background-size: auto;
+}
+
+.menu-principal {
+    width: 12vw;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+
+.menu-principal h2 {
+    color: black;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.menu-principal a:hover,
+#index .menu a[href="index.html"],
+#contos .menu a[href="contos.html"],
+#irmaos .menu a[href="irmaos.html"],
+#autores .menu a[href="autores.html"] {
+    color: #660000;
+    transform: scale(1.2);
+}
+
+.menu-principal a {
+    margin: 10px;
+    display: block;
+    text-align: center;
+    font-family: 'Gentium Book Plus', serif;
+    font-size: 1.5vw;
+    text-decoration: none;
+    color: #D8AE17;
+    border: 2px dotted #D8AE17;
+    border-radius: 40px;
+    width: 12vw;
+    padding: 8px;
+}
+
+
+/*barrinha de rolagem*/
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #BAAB85;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #4f1b1b;
+}
+
+@media (max-width: 920px) {
+    .menu-principal {
+        top: 20%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .menu-principal {
+        top: 30%;
+    }
+}
+
+@media (max-width: 776px) {
+    .menu-principal {
+        top: 20%;
+    }
+}
+
+@media (max-width: 768px) {
+    .menu-principal {
+        top: 10%;
+    }
+    .logo-principal {
+        position: absolute;
+        width: 40%;
+        left: 2%;
+    }
+}
+
+@media (max-width: 425px) {
+    .menu-principal {
+        width: 20vw;
+        position: absolute;
+        top: 70%;
+        left: 45%;
+        transform: translateX(-50%);
+    }
+    .menu-principal a {
+        margin: 10px;
+        display: block;
+        text-align: center;
+        font-family: 'Gentium Book Plus', serif;
+        font-size: 2vw;
+        text-decoration: none;
+        color: #D8AE17;
+        border: 2px dotted #D8AE17;
+        border-radius: 40px;
+        width: 20vw;
+        padding: 8px;
+    }
+    .logo-principal {
+        position: absolute;
+        top: 55%;
+        width: 80%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .introducao {
+        position: absolute;
+        left: 50%;
+        top: 2%;
+        transform: translateX(-50%);
+        bottom: 10%;
+        width: 80%;
+        height: 80%;
+        text-align: justify;
+    }
+    #principal {
+        background-image: url(imgs/fundo-celular.png);
+        background-size: auto;
+    }
+    .introducao p {
+        color: #D8AE17;
+        font-family: 'Gentium Book Plus', serif;
+        font-size: 3vw;
+        text-align: justify;
+    }
+    .introducao h3 {
+        color: #D8AE17;
+        text-align: center;
+        font-family: 'Cinzel', sans-serif;
+        text-shadow: 3px 3px #660000;
+        font-weight: 100;
+        font-size: 4.5vw;
+    }
+}

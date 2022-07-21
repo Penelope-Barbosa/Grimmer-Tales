@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+@import url('https://fonts.google.com/specimen/Marck+Script?query=marck#standard-styles');
+@import url('https://fonts.google.com/specimen/Poppins?query=popp');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=trocar');
+
+section {
+    margin-top: 70px;
+}
+body {
+    background-color: #BAAB85;
+}
+.quadro {
+    background-color: whitesmoke;
+    padding: 60px;
+    border-radius: 50px;
+    max-width: 800px;
+    font-size: 150%;
+    opacity: 60%;
+    margin-bottom: 30px;
+    margin-top: -20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.quadro p {
+    margin-bottom: 20px;
+    font-family: 'Poppins', ui-sans-serif;
+    text-align: justify;
+}
+
+.text-top {
+    color: #660000;
+    text-shadow: 3px 3px #130000;
+    font-family: 'Dancing Script', cursiva;
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 90px;
+    font-weight: 90;
+}
+.quadro h1, h2 {
+    font-family: 'Dancing Script', cursiva;
+    color: #660000;
+    text-align: center;
+}
+.quadro h1 {
+    font-size: 50px;
+    margin-top: -10px;
+}
+img {
+    float: right;
+    margin-top: -200px;
+    border-radius: 50px;
+}
+
+#descricao {
+    color: whitesmoke;
+    font-family: 'Poppins', cursiva;
+    text-align: center;
+    margin-top: -30px;
+    margin-left: 170px;
+    margin-right: 180px;
+    display: block;
+}
+/*barrinha de rolagem*/
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #BAAB85;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #4f1b1b;
+}
